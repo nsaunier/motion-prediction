@@ -25,9 +25,7 @@ Vy1 Vy2 ...
 %
 ...
 
-where Xi and Yi and Vxi and Vyi are respectively the position coordinates and the velocity vector components at index i (counting 0 as the index of the first measurement, the corresponding frame number is first\_instant+i). The homography files, ie the 3x3 matrix that is used to project from image space (in pixels) to the ground plane (in meters), is also provided in the corresponding \-homography.txt files. All files, 3 per video sequence, are in a zip archive in their original hierarchy, ie in a Miss or Incident directory respectively for conflicts and collisions.
-
-\[[zip](mohamed13trb-data.zip)\]
+where Xi and Yi and Vxi and Vyi are respectively the position coordinates and the velocity vector components at index i (counting 0 as the index of the first measurement, the corresponding frame number is first\_instant+i). The homography files, ie the 3x3 matrix that is used to project from image space (in pixels) to the ground plane (in meters), is also provided in the corresponding \-homography.txt files. All files, 3 per video sequence, are in the `Miss` and `Incident` subdirectories respectively for conflicts and collisions.
 
 Code
 ----
